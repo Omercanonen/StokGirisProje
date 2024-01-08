@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokGirisProje", "StokGirisProje\StokGirisProje.csproj", "{414A3E74-DF39-47C4-826B-71F96680CFD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD710995-B45F-491E-86C3-2BFBE5941259} = {AD710995-B45F-491E-86C3-2BFBE5941259}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeclass", "Projeclass\Projeclass.csproj", "{AD710995-B45F-491E-86C3-2BFBE5941259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414A3E74-DF39-47C4-826B-71F96680CFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414A3E74-DF39-47C4-826B-71F96680CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414A3E74-DF39-47C4-826B-71F96680CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414A3E74-DF39-47C4-826B-71F96680CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD710995-B45F-491E-86C3-2BFBE5941259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD710995-B45F-491E-86C3-2BFBE5941259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD710995-B45F-491E-86C3-2BFBE5941259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD710995-B45F-491E-86C3-2BFBE5941259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A539BA3-BCCE-48A0-8BF9-3E2219907028}
+	EndGlobalSection
+EndGlobal
