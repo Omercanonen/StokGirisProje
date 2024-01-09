@@ -8,12 +8,12 @@ namespace Projeclass
         public int urunbarkod { get; set; }
         public int adet {  get; set; }
         public int alisfiyat { get; set; }
-        public string kategoriname { get; set; }
+        public string kategori { get; set; }
 
         public BindingList<urunler> urunListesi = new BindingList<urunler>();
         public BindingList<urunler> siparisListesi = new BindingList<urunler>();
  
-        public void Iekle(string urunAdi, int urunBarkod, int Adet, int alisFiyat, string kategoriName)
+        public void Iekle(string urunAdi, int urunBarkod, int Adet, int alisFiyat, string kategori)
         {
             urunler yeniUrun = new urunler
             {
@@ -21,7 +21,7 @@ namespace Projeclass
                 urunbarkod = urunBarkod,
                 adet = Adet,
                 alisfiyat = alisFiyat,
-                kategoriname = kategoriName
+                kategori = kategori
             };
 
             urunListesi.Add(yeniUrun);
